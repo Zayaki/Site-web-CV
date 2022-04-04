@@ -1,0 +1,27 @@
+.nav{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+
+
+    &__logo{
+        display: flex;
+        align-items: center;
+    }
+
+    &__img{
+        width: 70px;
+    }
+
+    &__credit{
+        font-size: 15px;
+        text-transform: uppercase;
+        padding: 15px 0;
+        color: $white;
+        position: relative;
+        top: 8px;
+    }
+
+
+}

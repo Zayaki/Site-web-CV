@@ -1,0 +1,26 @@
+.column{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 40vh;
+
+    &__left, &__right{
+        width: 33%;
+        text-align: center;
+    }
+
+    &__title{
+        text-transform: uppercase;
+        color: $third-color;
+        position: relative;
+        border-bottom: 2px solid $second-color;
+    }
+
+
+    &__subtitle{
+        margin-top: 20px;
+        color: $white;
+    }
+}
