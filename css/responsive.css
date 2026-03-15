@@ -1,0 +1,63 @@
+ /* Tablette Portrait */
+@media (max-width: 900px){	
+	.bg-img h1{
+		font-size: 2em;
+		left: 5%;}
+	.bg-img h2{
+		font-size: 1.2em;
+    	left: 5%;}
+	.bg-img #cre{
+	    top: 430px;}
+	.bg-img #pol{
+	    top: 480px;}
+	.bg-img #aut{
+	    top: 530px;}
+}
+
+@media (max-width: 600px){
+	.timeline-panel-container{
+		width:auto;
+		padding-top: 70px;}
+	.timeline-panel-container-inverted1,.timeline-panel-container-inverted2{
+		width:auto;
+		padding-top: 70px;}
+	.timeline-panel-container-inverted1 .timeline-panel,.timeline-panel-container-inverted2 .timeline-panel{
+		margin-left: 0px;}
+	.timeline-panel{
+		width: auto;
+		margin-right: 0px;}
+	.timeline-panel:after{
+		content: none;}
+	.navbar{
+		font-size: 16px!important;
+	}
+
+@media (max-width: 400px){
+	.bg-img {
+	    background-position: 60%;
+	    opacity: 0.8;}
+	.funtext {
+	font-size: 10px;}
+	.white-divider1,.white-divider2{
+		display: none;
+	}
+	.green-divider1,.green-divider2{
+		display: none;
+	}
+	#competences p{
+		font-size: 17px;}
+	.timeline-heading h3{
+		font-size: 18px;}
+	.timeline p{
+		font-size: 17px;}
+	#reco .item h3 {
+		font-size: 22px !important;}
+	.block1 p{
+		font-size: 17px !important;}
+	#contact .block1 .fa{
+    	padding: 30px 10px 0 20px;}
+    #contact .block2{
+    	padding-top: 10px;}
+    .comments{
+    	height: 14px;}
+}
